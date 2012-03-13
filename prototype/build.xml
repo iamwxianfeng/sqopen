@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<project name="prototype" basedir="." default="distrib">
+  <property environment="env" />
+  <property file="build.properties"/>
+
+  <property name="jsdir" value="${distrib_path}/javascripts"/>
+  <property name="cssdir" value="${distrib_path}/stylesheets"/>
+  <property name="imgdir" value="${distrib_path}/images"/>
+
+  <target name="deploy" depends="">
+    <echo message="Deploy css,images,javascripts"/>
+
+    <mkdir dir="${cssdir}" />
+    <copy todir="${cssdir}">
+      <fileset dir="${src_path}/css" includes="**/*" />
+    </copy>
+
+    <mkdir dir="${imgdir}" />
+    <copy todir="${imgdir}">
+      <fileset dir="${src_path}/images" includes="**/*" />
+    </copy>
+
+    <mkdir dir="${jsdir}" />
+    <copy todir="${jsdir}">
+      <fileset dir="${src_path}/javascripts" includes="**/*" />
+    </copy>
+
+  </target>
+
+</project>
