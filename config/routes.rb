@@ -57,4 +57,10 @@ Sqopen::Application.routes.draw do
   # match ':controller(/:action(/:id))(.:format)'
 
   root :to=>'welcome#index'
+
+  match 'solutions' => 'welcome#solutions'
+  match 'partners' => 'welcome#partners'
+  match 'jobs' => 'welcome#jobs'
+  match 'about' => 'welcome#about'
+  match 'contact' => 'welcome#contact'
 end
