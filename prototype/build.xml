@@ -17,7 +17,7 @@
 
     <mkdir dir="${imgdir}" />
     <copy todir="${imgdir}">
-      <fileset dir="${src_path}/images" includes="**/*" />
+      <fileset dir="${src_path}/assets" includes="**/*" />
     </copy>
 
     <mkdir dir="${jsdir}" />

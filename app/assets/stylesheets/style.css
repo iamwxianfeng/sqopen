@@ -92,37 +92,37 @@ h6 { font-size:1em; font-weight:normal;}
 #header .top-links { float:right; padding:45px 35px 0 0;}
 #header .top-links li { float:left; margin-left:8px;}
 
-#header .nav-box { background:url(../images/nav-box-bg.gif) left top repeat-x; width:100%;}
-#header .nav-box .left { background:url(../images/nav-box-left.gif) no-repeat left top;}
-#header .nav-box .right { background:url(../images/nav-box-right.gif) no-repeat right top; height:47px;}
+#header .nav-box { background:url(../assets/nav-box-bg.gif) left top repeat-x; width:100%;}
+#header .nav-box .left { background:url(../assets/nav-box-left.gif) no-repeat left top;}
+#header .nav-box .right { background:url(../assets/nav-box-right.gif) no-repeat right top; height:47px;}
 
 
 /*-- header navigation --*/
 #header .nav-box ul { font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;}
 #header .nav-box ul li { display:inline;}
 #header .nav-box ul li a { display:block; float:left; color:#fff; text-decoration:none; }
-#header .nav-box ul li a em { display:block; float:left; font-style:normal; background:url(../images/divider-left.gif) no-repeat left 10px;}
-#header .nav-box ul li a em b { display:block; float:left; height:47px; line-height:47px; width:158px; text-align:center; background:url(../images/divider-right.gif) no-repeat right 10px; cursor:pointer;}
+#header .nav-box ul li a em { display:block; float:left; font-style:normal; background:url(../assets/divider-left.gif) no-repeat left 10px;}
+#header .nav-box ul li a em b { display:block; float:left; height:47px; line-height:47px; width:158px; text-align:center; background:url(../assets/divider-right.gif) no-repeat right 10px; cursor:pointer;}
 
-#header .nav-box ul li a:hover { background:url(../images/nav-act.gif) left top repeat-x;}
-#header .nav-box ul li a:hover em { background:url(../images/divider-left-act.gif) no-repeat left 10px;}
-#header .nav-box ul li a:hover b { background:url(../images/divider-right-act.gif) no-repeat right 10px;}
-#header .nav-box ul li a.current { background:url(../images/nav-act.gif) left top repeat-x;}
-#header .nav-box ul li a.current em { background:url(../images/divider-left-act.gif) no-repeat left 10px;}
-#header .nav-box ul li a.current b { background:url(../images/divider-right-act.gif) no-repeat right 10px;}
+#header .nav-box ul li a:hover { background:url(../assets/nav-act.gif) left top repeat-x;}
+#header .nav-box ul li a:hover em { background:url(../assets/divider-left-act.gif) no-repeat left 10px;}
+#header .nav-box ul li a:hover b { background:url(../assets/divider-right-act.gif) no-repeat right 10px;}
+#header .nav-box ul li a.current { background:url(../assets/nav-act.gif) left top repeat-x;}
+#header .nav-box ul li a.current em { background:url(../assets/divider-left-act.gif) no-repeat left 10px;}
+#header .nav-box ul li a.current b { background:url(../assets/divider-right-act.gif) no-repeat right 10px;}
 
 #header .nav-box ul li a.first em { background:none;}
-#header .nav-box ul li a.first:hover em { background:url(../images/nav-left-act.gif) no-repeat left top;}
-#header .nav-box ul li a.first-current { background:url(../images/nav-act.gif) left top repeat-x;}
-#header .nav-box ul li a.first-current em { background:url(../images/nav-left-act.gif) no-repeat left top !important;}
-#header .nav-box ul li a.first-current b { background:url(../images/divider-right-act.gif) no-repeat right 10px;}
+#header .nav-box ul li a.first:hover em { background:url(../assets/nav-left-act.gif) no-repeat left top;}
+#header .nav-box ul li a.first-current { background:url(../assets/nav-act.gif) left top repeat-x;}
+#header .nav-box ul li a.first-current em { background:url(../assets/nav-left-act.gif) no-repeat left top !important;}
+#header .nav-box ul li a.first-current b { background:url(../assets/divider-right-act.gif) no-repeat right 10px;}
 
 #header .nav-box ul li a.last b { background:none; width:160px;}
-#header .nav-box ul li a.last:hover b { background:url(../images/nav-right-act.gif) no-repeat right top;}
+#header .nav-box ul li a.last:hover b { background:url(../assets/nav-right-act.gif) no-repeat right top;}
 
-#header .nav-box ul li a.last-current { background:url(../images/nav-act.gif) left top repeat-x; }
-#header .nav-box ul li a.last-current em { background:url(../images/divider-left-act.gif) no-repeat left 10px;}
-#header .nav-box ul li a.last-current b { background:url(../images/nav-right-act.gif) no-repeat right top !important; width:160px;}
+#header .nav-box ul li a.last-current { background:url(../assets/nav-act.gif) left top repeat-x; }
+#header .nav-box ul li a.last-current em { background:url(../assets/divider-left-act.gif) no-repeat left 10px;}
+#header .nav-box ul li a.last-current b { background:url(../assets/nav-right-act.gif) no-repeat right top !important; width:160px;}
 
 
 
@@ -133,32 +133,32 @@ h6 { font-size:1em; font-weight:normal;}
 #content { padding:0 0 20px 0; background:#fff;}
 #content .section { padding-bottom:20px;}
 
-#content .button { background:url(../images/button-bg.gif) left top repeat-x; display:block; text-align:center; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; color:#fff; text-decoration:none; text-transform:uppercase;}
-#content .button em { display:block; font-style:normal; background:url(../images/button-left.gif) no-repeat left top;}
-#content .button em b { display:block; height:35px; line-height:35px; background:url(../images/button-right.gif) no-repeat right top; cursor:pointer;}
+#content .button { background:url(../assets/button-bg.gif) left top repeat-x; display:block; text-align:center; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; color:#fff; text-decoration:none; text-transform:uppercase;}
+#content .button em { display:block; font-style:normal; background:url(../assets/button-left.gif) no-repeat left top;}
+#content .button em b { display:block; height:35px; line-height:35px; background:url(../assets/button-right.gif) no-repeat right top; cursor:pointer;}
 #content .button:hover { color:#000;}
 
-#content .button1 { background:url(../images/button1-bg.gif) left top repeat-x; display:block; text-align:center; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; color:#fff; text-decoration:none; text-transform:uppercase;}
-#content .button1 em { display:block; font-style:normal; background:url(../images/button1-left.gif) no-repeat left top;}
-#content .button1 em b { display:block; height:35px; line-height:35px; background:url(../images/button1-right.gif) no-repeat right top; cursor:pointer;}
+#content .button1 { background:url(../assets/button1-bg.gif) left top repeat-x; display:block; text-align:center; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; color:#fff; text-decoration:none; text-transform:uppercase;}
+#content .button1 em { display:block; font-style:normal; background:url(../assets/button1-left.gif) no-repeat left top;}
+#content .button1 em b { display:block; height:35px; line-height:35px; background:url(../assets/button1-right.gif) no-repeat right top; cursor:pointer;}
 #content .button1:hover { color:#000;}
 
-#content .button2 { background:url(../images/button2-bg.gif) left top repeat-x; display:block; text-align:center; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; color:#fff; text-decoration:none; text-transform:uppercase;}
-#content .button2 em { display:block; font-style:normal; background:url(../images/button2-left.gif) no-repeat left top;}
-#content .button2 em b { display:block; height:35px; line-height:35px; background:url(../images/button2-right.gif) no-repeat right top; cursor:pointer;}
+#content .button2 { background:url(../assets/button2-bg.gif) left top repeat-x; display:block; text-align:center; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; color:#fff; text-decoration:none; text-transform:uppercase;}
+#content .button2 em { display:block; font-style:normal; background:url(../assets/button2-left.gif) no-repeat left top;}
+#content .button2 em b { display:block; height:35px; line-height:35px; background:url(../assets/button2-right.gif) no-repeat right top; cursor:pointer;}
 #content .button2:hover { color:#000;}
 
-#content .button3 { background:url(../images/button3-bg.gif) left top repeat-x; display:block; text-align:center; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; color:#fff; text-decoration:none; text-transform:uppercase;}
-#content .button3 em { display:block; font-style:normal; background:url(../images/button3-left.gif) no-repeat left top;}
-#content .button3 em b { display:block; height:35px; line-height:35px; background:url(../images/button3-right.gif) no-repeat right top; cursor:pointer;}
+#content .button3 { background:url(../assets/button3-bg.gif) left top repeat-x; display:block; text-align:center; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; color:#fff; text-decoration:none; text-transform:uppercase;}
+#content .button3 em { display:block; font-style:normal; background:url(../assets/button3-left.gif) no-repeat left top;}
+#content .button3 em b { display:block; height:35px; line-height:35px; background:url(../assets/button3-right.gif) no-repeat right top; cursor:pointer;}
 #content .button3:hover { color:#000;}
 
-.main-banner-big { background:url(../images/main-banner-big.jpg) no-repeat left top; width:950px; height:303px; margin-bottom:20px;}
+.main-banner-big { background:url(../assets/main-banner-big.jpg) no-repeat left top; width:950px; height:303px; margin-bottom:20px;}
 .main-banner-big .inner { padding:70px 0 0 52px;}
-.main-banner-big .button { background:url(../images/button.jpg) no-repeat left top !important; width:170px; height:36px; line-height:32px; float:left; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; font-size:1.75em; text-align:center; color:#fff; text-decoration:none; text-transform:none !important;}
+.main-banner-big .button { background:url(../assets/button.jpg) no-repeat left top !important; width:170px; height:36px; line-height:32px; float:left; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; font-size:1.75em; text-align:center; color:#fff; text-decoration:none; text-transform:none !important;}
 .main-banner-big .button:hover { color:#000;}
 
-.main-banner-small { background:url(../images/main-banner-small.jpg) no-repeat left top; width:950px; height:163px; margin-bottom:20px;}
+.main-banner-small { background:url(../assets/main-banner-small.jpg) no-repeat left top; width:950px; height:163px; margin-bottom:20px;}
 .main-banner-small .inner { padding:47px 0 0 52px;}
 .main-banner-small h1 { font-size:30px; width:350px;}
 
@@ -166,38 +166,38 @@ h6 { font-size:1em; font-weight:normal;}
 #extra-content { background:#ededed; border-bottom:1px solid #fff; padding:20px 0 29px 0;}
 #extra-content .section { padding-bottom:20px;}
 
-#extra-content .box { background:url(../images/box1-bg.gif) left top repeat-x #fff; width:100%;}
-#extra-content .box .border-top {background:url(../images/border.gif) repeat-x top;}
-#extra-content .box .border-bot {background:url(../images/border.gif) repeat-x bottom;}
-#extra-content .box .border-left {background:url(../images/border.gif) repeat-y left;}
-#extra-content .box .border-right {background:url(../images/border.gif) repeat-y right;}
-#extra-content .box .left-top-corner {background:url(../images/left-top-corner1.gif) no-repeat left top;}
-#extra-content .box .right-top-corner {background:url(../images/right-top-corner1.gif) no-repeat right top;}
-#extra-content .box .left-bot-corner {background:url(../images/left-bot-corner1.gif) no-repeat left bottom; width:100%;}
-#extra-content .box .right-bot-corner {background:url(../images/right-bot-corner1.gif) no-repeat right bottom; }
+#extra-content .box { background:url(../assets/box1-bg.gif) left top repeat-x #fff; width:100%;}
+#extra-content .box .border-top {background:url(../assets/border.gif) repeat-x top;}
+#extra-content .box .border-bot {background:url(../assets/border.gif) repeat-x bottom;}
+#extra-content .box .border-left {background:url(../assets/border.gif) repeat-y left;}
+#extra-content .box .border-right {background:url(../assets/border.gif) repeat-y right;}
+#extra-content .box .left-top-corner {background:url(../assets/left-top-corner1.gif) no-repeat left top;}
+#extra-content .box .right-top-corner {background:url(../assets/right-top-corner1.gif) no-repeat right top;}
+#extra-content .box .left-bot-corner {background:url(../assets/left-bot-corner1.gif) no-repeat left bottom; width:100%;}
+#extra-content .box .right-bot-corner {background:url(../assets/right-bot-corner1.gif) no-repeat right bottom; }
 
 
 /*==================boxes====================*/
-.box { background:url(../images/box-bg.gif) left top repeat-x; width:100%;}
-.box .border-top {background:url(../images/border.gif) repeat-x top;}
-.box .border-bot {background:url(../images/border.gif) repeat-x bottom;}
-.box .border-left {background:url(../images/border.gif) repeat-y left;}
-.box .border-right {background:url(../images/border.gif) repeat-y right;}
-.box .left-top-corner {background:url(../images/left-top-corner.gif) no-repeat left top;}
-.box .right-top-corner {background:url(../images/right-top-corner.gif) no-repeat right top;}
-.box .left-bot-corner {background:url(../images/left-bot-corner.gif) no-repeat left bottom; width:100%;}
-.box .right-bot-corner {background:url(../images/right-bot-corner.gif) no-repeat right bottom; }
+.box { background:url(../assets/box-bg.gif) left top repeat-x; width:100%;}
+.box .border-top {background:url(../assets/border.gif) repeat-x top;}
+.box .border-bot {background:url(../assets/border.gif) repeat-x bottom;}
+.box .border-left {background:url(../assets/border.gif) repeat-y left;}
+.box .border-right {background:url(../assets/border.gif) repeat-y right;}
+.box .left-top-corner {background:url(../assets/left-top-corner.gif) no-repeat left top;}
+.box .right-top-corner {background:url(../assets/right-top-corner.gif) no-repeat right top;}
+.box .left-bot-corner {background:url(../assets/left-bot-corner.gif) no-repeat left bottom; width:100%;}
+.box .right-bot-corner {background:url(../assets/right-bot-corner.gif) no-repeat right bottom; }
 .box .inner { padding:27px 35px 30px 34px;}
 
 .box1 { background:#ededed; width:100%;}
-.box1 .border-top {background:url(../images/border-top.gif) repeat-x top;}
-.box1 .border-bot {background:url(../images/border-bot.gif) repeat-x bottom;}
-.box1 .border-left {background:url(../images/border-left.gif) repeat-y left;}
-.box1 .border-right {background:url(../images/border-right.gif) repeat-y right;}
-.box1 .left-top-corner {background:url(../images/left-top-corner2.gif) no-repeat left top;}
-.box1 .right-top-corner {background:url(../images/right-top-corner2.gif) no-repeat right top;}
-.box1 .left-bot-corner {background:url(../images/left-bot-corner2.gif) no-repeat left bottom; width:100%;}
-.box1 .right-bot-corner {background:url(../images/right-bot-corner2.gif) no-repeat right bottom; }
+.box1 .border-top {background:url(../assets/border-top.gif) repeat-x top;}
+.box1 .border-bot {background:url(../assets/border-bot.gif) repeat-x bottom;}
+.box1 .border-left {background:url(../assets/border-left.gif) repeat-y left;}
+.box1 .border-right {background:url(../assets/border-right.gif) repeat-y right;}
+.box1 .left-top-corner {background:url(../assets/left-top-corner2.gif) no-repeat left top;}
+.box1 .right-top-corner {background:url(../assets/right-top-corner2.gif) no-repeat right top;}
+.box1 .left-bot-corner {background:url(../assets/left-bot-corner2.gif) no-repeat left bottom; width:100%;}
+.box1 .right-bot-corner {background:url(../assets/right-bot-corner2.gif) no-repeat right bottom; }
 .box1 .inner { padding:27px 35px 30px 34px;}
 
 .dept-list { float:left;}
