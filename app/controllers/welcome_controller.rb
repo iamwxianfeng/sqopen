@@ -12,4 +12,5 @@ class WelcomeController < ApplicationController
   def jobs;end
   def about;end
   def contact;end
+  def cases;end
 end

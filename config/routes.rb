@@ -63,4 +63,5 @@ Sqopen::Application.routes.draw do
   match 'jobs' => 'welcome#jobs'
   match 'about' => 'welcome#about'
   match 'contact' => 'welcome#contact'
+  match 'cases' => 'welcome#cases'
 end
