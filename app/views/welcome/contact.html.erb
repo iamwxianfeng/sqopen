@@ -3,7 +3,7 @@
     <!-- main-banner-small begin -->
     <div class="main-banner-small">
       <div class="inner">
-        <h1>Even the biggest success Starts with a first step</h1>
+        <h1><%= t 'title' %></h1>
       </div>
     </div>
     <!-- main-banner-small end -->
@@ -19,16 +19,15 @@
                     <div class="right-bot-corner">
                       <div class="left-bot-corner">
                         <div class="inner">
-                          <h2>Contact Us</h2>
-                          <p>BigBusiness is always open for communication on whatever questions you may have. So in case you do have questions (as we assume) just go ahead and complete the form below to let us know.</p>
-                          <p>Usually we respond within 24 hours but who knows...</p>
+                          <h2><%= t 'contact' %></h2>
+                          <p>请把你的问题写在下面发送给我们,我们会在24小时内回复您.</p>
                           <form id="contacts-form" action="">
                             <fieldset>
-                              <div class="field"><label>Full Name:</label><input type="text" value=""/></div>
+                              <div class="field"><label>姓名:</label><input type="text" value=""/></div>
                               <div class="field"><label>E-mail:</label><input type="text" value=""/></div>
-                              <div class="field"><label>Title:</label><input type="text" value=""/></div>
-                              <div class="field"><label>Message:</label><textarea cols="" rows=""></textarea></div>
-                              <div class="alignright"><a href="#" class="button" onclick="document.getElementById('contacts-form').submit()"><em><b>Submit</b></em></a></div>
+                              <div class="field"><label>标题:</label><input type="text" value=""/></div>
+                              <div class="field"><label>内容:</label><textarea cols="" rows=""></textarea></div>
+                              <div class="alignright"><a href="#" class="button" onclick="document.getElementById('contacts-form').submit()"><em><b>发送</b></em></a></div>
                             </fieldset>
                           </form>
                         </div>
@@ -56,11 +55,11 @@
                       <div class="right-bot-corner maxheight">
                         <div class="left-bot-corner maxheight">
                           <div class="inner">
-                            <h2>Give Us a Call</h2>
+                            <h2>电话</h2>
                             <ul class="phones-list">
-                              <li><strong>Phone:</strong> 1 800-BIG_BIZ</li>
-                              <li><strong>New York:</strong> 1 800-3122-877</li>
-                              <li><strong>LA:</strong> 651 9823-123-423</li>
+                              <li><strong>电话:</strong>010-0000 8888</li>
+                              <!-- <li><strong>New York:</strong> 1 800-3122-877</li> -->
+                              <!-- <li><strong>LA:</strong> 651 9823-123-423</li> -->
                             </ul>
                           </div>
                         </div>
@@ -86,9 +85,8 @@
                       <div class="right-bot-corner maxheight">
                         <div class="left-bot-corner maxheight">
                           <div class="inner">
-                            <h2>Our Offices</h2>
-                            <p>New York: 35th st., 1243, 3rd floor</p>
-                            LA: Cypress Blvd, 90210, (beware of the dog)
+                            <h2>地址:</h2>
+                            <p>北京市朝阳区松榆南路南新园12栋6门302室(近北京工业大学)</p>
                           </div>
                         </div>
                       </div>
@@ -113,8 +111,8 @@
                       <div class="right-bot-corner maxheight">
                         <div class="left-bot-corner maxheight">
                           <div class="inner">
-                            <h2 class="alt">Alternative Contact Way</h2>
-                            There has to be some other way to contact your company, right? Well be sure to let the audience know.
+                            <h2 class="alt">E-mail</h2>
+                            support@sqopen.com.
                           </div>
                         </div>
                       </div>
